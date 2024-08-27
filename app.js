@@ -6,9 +6,9 @@ const PORT = 3000;
 
 // Spotify Web API クライアントの設定
 const spotifyApi = new SpotifyWebApi({
-    clientId: '523d7e19803f4d598465dde2a1ea1ce3',
-    clientSecret: 'b49f834085e948249d7b588766a73bdb',
-    redirectUri: 'http://localhost:3000/callback'
+    clientId: 'yourClientId',
+    clientSecret: 'yourClientSecret',
+    redirectUri: 'yourCallbackUri'
 });
 
 // POSTリクエストで受け取るデータを解析するためのミドルウェア
